@@ -5,14 +5,16 @@
   "seed": 42,
   "document_types": [
     "contract",
-    "agreement", 
+    "agreement",
     "policy",
-    "regulation"
+    "regulation",
+    "pregnancy_discrimination_case"
   ],
-  "risk_levels": [
-    "low",
-    "medium", 
-    "high",
-    "critical"
-  ]
+  "risk_levels": {
+    "low": "Minimal legal risk",
+    "medium": "Review recommended",
+    "high": "Immediate attention needed",
+    "critical": "Potential violation of EEOC guidance"
+  },
+  "vector_db_path": "vector_database/"
 }

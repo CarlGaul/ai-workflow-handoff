@@ -28,3 +28,9 @@
 - Suggest improvements for the batch processing method
 - Check if the seed implementation is optimal
 - Recommend additional error handling
+
+## Additional Notes from Grok Review
+- Efficiency: Added progress in batch_process for better UX on large case sets.
+- Seed: Optimized with torch.manual_seed for full reproducibility in Legal-BERT.
+- Error Handling: Added try/except for config loading and empty docs.
+- Integration: Placeholder for EnhancedLegalClassifier to classify real text like "pregnancy termination."
