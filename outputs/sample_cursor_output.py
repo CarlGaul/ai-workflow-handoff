@@ -30,7 +30,7 @@ class DocumentProcessor:
         if not document_text.strip():  # Simple check for empty input
             raise ValueError("Document text cannot be empty")
 
-        # Placeholder for real integration: Call your EnhancedLegalClassifier
+        # For real integration in LegalAI: from src.legal_bert_classifier_enhanced import EnhancedLegalClassifier
         # Assuming it's imported or available - in real use, add: from src.legal_bert_classifier_enhanced import EnhancedLegalClassifier
         # classifier = EnhancedLegalClassifier()
         # result = classifier.classify_document(document_text)
@@ -56,6 +56,8 @@ class DocumentProcessor:
                 results.append(self.process_document(doc))
             except ValueError as e:
                 print(f"Error on document {i}: {e}")
+                with open('logs/error_log.txt', 'a') as log_file:  # Append to log file
+                    log_file.write(f"Error on document {i}: {e}\n")
                 results.append({"error": str(e)})
         return results
 

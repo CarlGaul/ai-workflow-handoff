@@ -34,3 +34,6 @@
 - Seed: Optimized with torch.manual_seed for full reproducibility in Legal-BERT.
 - Error Handling: Added try/except for config loading and empty docs.
 - Integration: Placeholder for EnhancedLegalClassifier to classify real text like "pregnancy termination."
+
+## Test Output
+- Ran `python3 outputs/sample_cursor_output.py`: Successfully processed sample_doc with result: {'document_type': 'contract', 'confidence': 0.95, 'key_terms': ['liability', 'indemnification', 'pregnancy discrimination'], 'risk_level': 'medium'}

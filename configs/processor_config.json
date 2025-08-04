@@ -16,5 +16,6 @@
     "high": "Immediate attention needed",
     "critical": "Potential violation of EEOC guidance"
   },
-  "vector_db_path": "vector_database/"
+  "vector_db_path": "vector_database/",
+  "ollama_model": "qwen2.5:14b"
 }
