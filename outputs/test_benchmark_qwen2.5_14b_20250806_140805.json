@@ -1,0 +1,33 @@
+{
+  "benchmark_info": {
+    "model": "qwen2.5:14b",
+    "timestamp": "2025-08-06T14:08:05.348716",
+    "temperature": 0.3,
+    "timeout": 120,
+    "total_questions": 2,
+    "successful_responses": 2,
+    "benchmark_type": "test_streamlit_with_database"
+  },
+  "results": [
+    {
+      "category": "Pregnancy Termination",
+      "question": "Test question 1",
+      "response_time": 2.5,
+      "word_count": 150,
+      "citation_count": 3,
+      "aspect_coverage": 0.8,
+      "response": "Test response with legal analysis",
+      "status": "success"
+    },
+    {
+      "category": "Accommodation Denial",
+      "question": "Test question 2",
+      "response_time": 3.1,
+      "word_count": 200,
+      "citation_count": 2,
+      "aspect_coverage": 0.6,
+      "response": "Another test response",
+      "status": "success"
+    }
+  ]
+}
