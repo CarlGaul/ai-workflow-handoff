@@ -1,0 +1,59 @@
+{
+  "debug_info": {
+    "model": "qwen2.5:14b",
+    "timestamp": "2025-08-06T11:19:33.325819",
+    "total_questions": 4,
+    "successful_responses": 4,
+    "failed_responses": 0
+  },
+  "results": [
+    {
+      "timestamp": "2025-08-06T11:16:57.023273",
+      "category": "Simple Test",
+      "question": "What is pregnancy discrimination?",
+      "response": "Pregnancy discrimination occurs when an employer treats an employee or applicant unfavorably because of her pregnancy, childbirth, or a medical condition related to pregnancy or childbirth. This form of discrimination is prohibited under Title VII of the Civil Rights Act of 1964 as amended by the Pregnancy Discrimination Act (PDA), which states that:\n\n> \"Women affected by pregnancy, childbirth, and related medical conditions must be treated in the same manner as other applicants or employees not so affected but similar in their ability or inability to work.\"\n\nThis means employers cannot refuse to hire a pregnant woman because of her pregnancy, force her on leave, or discriminate against her in any aspect of employment. For more detailed information, see 42 U.S.C. \u00a7 2000e(k) and relevant Equal Employment Opportunity Commission (EEOC) guidelines.",
+      "response_time_seconds": 19.14072012901306,
+      "word_count": 131,
+      "char_count": 856,
+      "temperature": 0.3,
+      "model": "qwen2.5:14b",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-08-06T11:18:00.176171",
+      "category": "Legal Test",
+      "question": "Draft a brief memo on pregnancy discrimination rights.",
+      "response": "**MEMORANDUM**\n\n**To:** Human Resources Department  \n**From:** Legal Department  \n**Date:** [Insert Date]  \n**Subject:** Pregnancy Discrimination Rights\n\n---\n\n### Summary of Key Points:\n\nPregnancy discrimination is prohibited under both federal and state laws, primarily through the Pregnancy Discrimination Act (PDA) of 1978, which amended Title VII of the Civil Rights Act of 1964. The PDA defines pregnancy as a protected status and mandates that employers treat pregnant employees in the same manner as other employees with similar abilities or limitations.\n\n### Key Provisions:\n\n1. **Equal Treatment:**\n   - Employers must provide the same benefits, leave policies, and opportunities to women affected by pregnancy, childbirth, or related medical conditions as they do for others who are similarly unable to work due to non-pregnancy-related medical conditions (42 U.S.C. \u00a7 2000e(k)).\n\n2. **Job Protection:**\n   - Employers cannot fire, demote, refuse promotion, or otherwise discriminate against a woman because of her pregnancy status. If an employee is temporarily unable to perform her job due to a medical condition related to pregnancy, the employer must treat her in the same manner as any other temporarily disabled employee (42 U.S.C. \u00a7 2000e(k)).\n\n3. **Reasonable Accommodations:**\n   - Employers are required to provide reasonable accommodations for pregnant employees if such accommodations would be provided for non-pregnant employees with similar limitations (EEOC Guidance, 1987).\n\n4. **Health Insurance Coverage:**\n   - Health insurance plans must cover expenses related to pregnancy on the same basis as they cover other medical conditions (29 C.F.R. \u00a7 1604.10(a)).\n\n5. **Leave Policies:**\n   - Employers are required to provide leave for disability due to pregnancy or childbirth under the Family and Medical Leave Act (FMLA) if certain eligibility criteria are met (29 U.S.C. \u00a7 2612).\n\n### Compliance Recommendations:\n\n- Ensure that all policies, practices, and benefits provided to employees with disabilities also apply to pregnant employees.\n- Train managers and HR staff on pregnancy discrimination laws and the importance of treating pregnant workers fairly.\n- Maintain clear documentation regarding any accommodations or leave requests related to pregnancy.\n\n### Conclusion:\n\nUnderstanding and adhering to these guidelines is crucial for maintaining compliance with federal and state anti-discrimination laws. Ensuring that all employees are treated equally regardless of their pregnancy status not only protects your organization from legal risks but also fosters a supportive work environment.\n\n---\n\n**Prepared by:**\n[Your Name]  \nLegal Department  \n[Contact Information]\n\n---",
+      "response_time_seconds": 61.14712691307068,
+      "word_count": 383,
+      "char_count": 2708,
+      "temperature": 0.3,
+      "model": "qwen2.5:14b",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-08-06T11:18:27.676317",
+      "category": "Simple Test",
+      "question": "What is pregnancy discrimination?",
+      "response": "Pregnancy discrimination occurs when an employer treats an employee unfavorably because of her pregnancy, childbirth, or a medical condition related to pregnancy or childbirth. This form of discrimination is prohibited under Title VII of the Civil Rights Act of 1964 and the Pregnancy Discrimination Act (PDA), which amended Title VII in 1978.\n\nKey aspects of pregnancy discrimination include:\n\n1. **Equal Treatment**: Employers must treat pregnant employees equally with other employees who are similar in their ability or inability to work.\n2. **Health Insurance**: If a company provides health insurance, it must cover expenses for pregnancy-related care on the same basis as costs for other medical conditions.\n3. **Leave Policies**: An employer cannot single out pregnancy-related absences for less favorable treatment than it does for illness and disability caused by non-job-related injuries.\n\nFor more information, see Title VII of the Civil Rights Act of 1964, amended by the Pregnancy Discrimination Act (PDA) in 1978. Specific legal cases and regulations that address pregnancy discrimination can be found under U.S. Equal Employment Opportunity Commission guidelines.",
+      "response_time_seconds": 25.497474670410156,
+      "word_count": 172,
+      "char_count": 1179,
+      "temperature": 0.7,
+      "model": "qwen2.5:14b",
+      "status": "success"
+    },
+    {
+      "timestamp": "2025-08-06T11:19:31.323410",
+      "category": "Legal Test",
+      "question": "Draft a brief memo on pregnancy discrimination rights.",
+      "response": "**MEMORANDUM**\n\n**To:** Human Resources Department\n\n**From:** Legal Department\n\n**Date:** [Insert Date]\n\n**Subject:** Pregnancy Discrimination Rights and Protections\n\n---\n\n### Overview of Pregnancy Discrimination Act (PDA)\n\nThe Pregnancy Discrimination Act (PDA), as an amendment to Title VII of the Civil Rights Act of 1964, prohibits employers from discriminating against employees or applicants based on pregnancy, childbirth, or related medical conditions. This includes discrimination in hiring, firing, promotion, compensation, and other terms, conditions, or privileges of employment.\n\n### Key Provisions\n\n1. **Equal Treatment:**\n   - Employers must treat pregnant workers the same as any other employee with respect to benefits such as leave policies (42 U.S.C. \u00a7 2000e(k)).\n\n2. **Reasonable Accommodations:**\n   - Employers are required to provide reasonable accommodations for pregnancy-related limitations, similar to those provided under the Americans with Disabilities Act (ADA), unless doing so would result in an undue hardship on the employer's business operations (42 U.S.C. \u00a7 2000e(j)).\n\n3. **Anti-Discrimination Policy:**\n   - Employers must maintain a non-discriminatory policy that explicitly prohibits discrimination based on pregnancy, childbirth, or related medical conditions and should include this information in employee handbooks and training programs (EEOC Guidance).\n\n4. **Pregnancy Leave Policies:**\n   - Employers are required to provide leave for pregnancy-related disabilities on the same basis as other medical conditions (29 C.F.R. \u00a7 1604.10). Additionally, employers may need to comply with state-specific family and medical leave laws which offer more extensive protections.\n\n### Employer Responsibilities\n\n- **Training:** Provide training sessions for managers and HR staff about pregnancy discrimination issues.\n- **Policy Review:** Regularly review company policies regarding maternity leave, disability accommodations, and other employment benefits to ensure compliance with federal and state laws.\n- **Documentation:** Maintain records of all interactions and actions related to pregnant employees and those on leave.\n\n### Employee Rights\n\nEmployees have the right to:\n\n- Seek reasonable accommodations for pregnancy-related limitations without fear of retaliation or discrimination.\n- Request and receive time off due to pregnancy, childbirth, or related medical conditions if similar benefits are provided for other serious health conditions (EEOC Guidance).\n\n### Conclusion\n\nEnsuring compliance with the PDA is crucial not only for legal reasons but also to foster a supportive work environment. Employers should be proactive in addressing any concerns and providing necessary support to pregnant employees.\n\n---\n\n**Prepared by:**\n[Your Name]\nLegal Department\n[Contact Information]",
+      "response_time_seconds": 61.64140486717224,
+      "word_count": 378,
+      "char_count": 2828,
+      "temperature": 0.7,
+      "model": "qwen2.5:14b",
+      "status": "success"
+    }
+  ]
+}
