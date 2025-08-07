@@ -1,0 +1,110 @@
+test_number,category,question,temperature,response_time,word_count,citation_count,aspect_coverage,legal_analysis_score,status,response_preview
+1,Legal Memo,Draft a legal memo analyzing the basic rights of pregnant employees under the Pregnancy Discrimination Act. Include specific citations to relevant cases and statutes from the database.,0.3,0.0,683,6,0.5,0.375,success,"**MEMORANDUM**
+
+**To:** [Recipient's Name], HR Manager  
+**From:** [Your Name], Associate Attorney  ..."
+2,Accommodation Analysis,Analyze the legal requirements for reasonable accommodations for pregnant employees. Cite specific cases and regulations from the database that establish these requirements.,0.3,0.0,605,3,0.4,0.375,success,"### Legal Requirements for Reasonable Accommodations for Pregnant Employees
+
+**Introduction:**
+
+The ..."
+3,FMLA Brief,Draft a brief section on FMLA rights for pregnant employees and new parents. Include specific citations to FMLA regulations and relevant case law from the database.,0.3,0.0,474,2,0.2,0.25,success,"**FMLA Rights for Pregnant Employees and New Parents**
+
+The Family and Medical Leave Act (FMLA) prov..."
+4,Lactation Rights Memo,Prepare a legal memo on lactation accommodation requirements in the workplace. Cite specific federal laws and regulations from the database.,0.3,0.0,530,3,0.6,0.375,success,"**MEMORANDUM**
+
+**To:** [Recipient's Name], Legal Department
+
+**From:** [Your Name], Associate Attor..."
+5,Discrimination Case Analysis,Analyze common examples of pregnancy discrimination in the workplace. Cite specific cases from the database that illustrate these patterns.,0.3,0.0,619,1,0.4,0.375,success,"### Analysis of Common Examples of Pregnancy Discrimination in the Workplace
+
+Pregnancy discriminati..."
+6,Remedies Brief,Draft a brief on legal remedies available for pregnancy discrimination victims. Include specific citations to cases and statutes establishing these remedies.,0.3,0.0,551,5,0.2,0.5,success,"**Memorandum**
+
+**To:** [Client's Name]
+
+**From:** [Your Name], Associate Attorney
+
+**Date:** [Today..."
+7,NY State Law Analysis,Analyze how New York State law protects pregnant employees beyond federal law. Cite specific NY statutes and cases from the database.,0.3,0.0,531,1,0.4,0.375,success,"### Analysis of New York State Law Protections for Pregnant Employees Beyond Federal Law
+
+#### Intro..."
+8,Documentation Guide,Draft a legal guide on documentation pregnant employees should keep to protect their rights. Cite relevant cases and regulations from the database.,0.3,0.0,561,5,0.4,0.125,success,"**Legal Guide for Pregnant Employees: Documentation to Protect Your Rights**
+
+### Introduction
+
+Preg..."
+9,Legal Memo,Draft a legal memo analyzing the basic rights of pregnant employees under the Pregnancy Discrimination Act. Include specific citations to relevant cases and statutes from the database.,0.7,0.0,511,4,0.5,0.25,success,"**MEMORANDUM**
+
+**To:** [Recipient's Name], Manager, Human Resources  
+**From:** [Your Name], Associ..."
+10,Accommodation Analysis,Analyze the legal requirements for reasonable accommodations for pregnant employees. Cite specific cases and regulations from the database that establish these requirements.,0.7,0.0,519,4,0.0,0.25,success,"### Legal Analysis of Reasonable Accommodations for Pregnant Employees
+
+**Introduction:**
+
+The Pregn..."
+11,FMLA Brief,Draft a brief section on FMLA rights for pregnant employees and new parents. Include specific citations to FMLA regulations and relevant case law from the database.,0.7,0.0,550,5,0.4,0.375,success,"**FMLA Rights for Pregnant Employees and New Parents**
+
+Under the Family and Medical Leave Act (FMLA..."
+12,Lactation Rights Memo,Prepare a legal memo on lactation accommodation requirements in the workplace. Cite specific federal laws and regulations from the database.,0.7,0.0,532,3,0.4,0.25,success,"**MEMORANDUM**
+
+**To:** [Recipient's Name], Client
+
+**From:** [Your Name], Associate Attorney
+
+**Dat..."
+13,Discrimination Case Analysis,Analyze common examples of pregnancy discrimination in the workplace. Cite specific cases from the database that illustrate these patterns.,0.7,0.0,660,2,0.4,0.25,success,"### Analysis of Common Examples of Pregnancy Discrimination in the Workplace
+
+Pregnancy discriminati..."
+14,Remedies Brief,Draft a brief on legal remedies available for pregnancy discrimination victims. Include specific citations to cases and statutes establishing these remedies.,0.7,0.0,547,5,0.4,0.375,success,"**Memorandum**
+
+**To:** [Client's Name]
+
+**From:** [Your Name], Associate Attorney
+
+**Date:** [Inser..."
+15,NY State Law Analysis,Analyze how New York State law protects pregnant employees beyond federal law. Cite specific NY statutes and cases from the database.,0.7,0.0,581,1,0.2,0.375,success,"**Memorandum**
+
+**To:** [Client's Name]
+**From:** [Your Name], Associate Attorney
+**Date:** [Today’s..."
+16,Documentation Guide,Draft a legal guide on documentation pregnant employees should keep to protect their rights. Cite relevant cases and regulations from the database.,0.7,0.0,604,4,0.6,0.25,success,"**Legal Guide for Pregnant Employees: Documentation to Protect Your Rights**
+
+*Prepared by [Your Law..."
+17,Legal Memo,Draft a legal memo analyzing the basic rights of pregnant employees under the Pregnancy Discrimination Act. Include specific citations to relevant cases and statutes from the database.,1.0,0.0,509,5,0.25,0.375,success,"**MEMORANDUM**
+
+**To:** [Recipient's Name], Manager, Human Resources  
+**From:** [Your Name], Associ..."
+18,Accommodation Analysis,Analyze the legal requirements for reasonable accommodations for pregnant employees. Cite specific cases and regulations from the database that establish these requirements.,1.0,0.0,548,6,0.2,0.5,success,"**Memorandum**
+
+**To:** [Client's Name]  
+**From:** [Your Name], Associate Attorney  
+**Date:** [Cur..."
+19,FMLA Brief,Draft a brief section on FMLA rights for pregnant employees and new parents. Include specific citations to FMLA regulations and relevant case law from the database.,1.0,0.0,382,3,0.2,0.25,success,"**FMLA Rights for Pregnant Employees and New Parents**
+
+Under the Family and Medical Leave Act (FMLA..."
+20,Lactation Rights Memo,Prepare a legal memo on lactation accommodation requirements in the workplace. Cite specific federal laws and regulations from the database.,1.0,0.0,557,2,0.6,0.25,success,"**MEMORANDUM**
+
+**To:** [Recipient's Name], Client
+
+**From:** [Your Name], Associate Attorney
+
+**Dat..."
+21,Discrimination Case Analysis,Analyze common examples of pregnancy discrimination in the workplace. Cite specific cases from the database that illustrate these patterns.,1.0,0.0,522,2,0.4,0.625,success,"**Memorandum**
+
+**To:** [Recipient's Name]  
+**From:** [Your Name], Associate Attorney  
+**Date:** [..."
+22,Remedies Brief,Draft a brief on legal remedies available for pregnancy discrimination victims. Include specific citations to cases and statutes establishing these remedies.,1.0,0.0,537,5,0.4,0.375,success,"**Memorandum**
+
+**To:** [Client's Name]
+**From:** [Your Name], Associate Attorney
+**Date:** [Insert ..."
+23,NY State Law Analysis,Analyze how New York State law protects pregnant employees beyond federal law. Cite specific NY statutes and cases from the database.,1.0,0.0,516,1,0.2,0.375,success,"**Memorandum**
+
+**To:** [Client's Name]
+**From:** [Your Name], Associate Attorney
+**Date:** [Today’s..."
+24,Documentation Guide,Draft a legal guide on documentation pregnant employees should keep to protect their rights. Cite relevant cases and regulations from the database.,1.0,0.0,573,3,0.4,0.0,success,"**Legal Guide for Pregnant Employees: Documentation to Protect Your Rights**
+
+*Prepared by [Your Law..."

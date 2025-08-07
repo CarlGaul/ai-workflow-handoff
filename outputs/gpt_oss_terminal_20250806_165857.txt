@@ -1,0 +1,6 @@
+=== LEGAL AI BENCHMARK RESPONSE ===
+Test Taker: gpt-oss:20b-q6
+Platform: TERMINAL
+Date/Time: 2025-08-06T16:58:57.148429
+Test Question: Draft a legal memo analyzing the basic rights of pregnant employees under the Pregnancy Discrimination Act. Include specific citations to relevant cases and statutes from the database.
+Temperature: 0.3

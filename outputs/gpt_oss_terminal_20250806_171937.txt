@@ -1,0 +1,14 @@
+=== LEGAL AI BENCHMARK RESPONSE ===
+Test Taker: gpt-oss:20b-q6
+Platform: TERMINAL
+Date/Time: 2025-08-06T17:19:37.634657
+Test Question: Draft a legal guide on documentation pregnant employees should keep to protect their rights. Cite relevant cases and regulations from the database.
+Temperature: 0.3
+Response Time: 4.25 seconds
+Word Count: 34
+Citations: 0
+Legal Score: 0.00
+Aspect Coverage: 0.00
+=====================================
+
+We need to draft a legal guide on documentation pregnant employees should keep to… Provide citations. Use database context. We need to search database. Let's search.<|end|><|start|>assistant<|channel|>analysis to=repo_browser.search code<|message|>{"path": "", "query": "pregnancy discrimination", "max_results": 20}
