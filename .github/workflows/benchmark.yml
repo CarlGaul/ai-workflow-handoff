@@ -1,0 +1,76 @@
+name: Legal AI Benchmarking
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'configs/**'
+      - 'prompts/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - 'configs/**'
+      - 'prompts/**'
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install torch numpy pandas streamlit ollama chromadb sentence-transformers psutil python-dotenv
+        
+    - name: Install Ollama
+      run: |
+        curl -fsSL https://ollama.ai/install.sh | sh
+        ollama pull llama3.1:8b
+        ollama pull gpt-oss:20b-q6
+        ollama pull qwen2.5:14b
+        
+    - name: Run benchmark validation
+      run: |
+        cd /Users/carlgaul/Desktop/AIProjects/LegalAI
+        python -c "
+        import sys
+        sys.path.append('src')
+        from configs.config import Config
+        validation = Config.validate_config()
+        if validation['errors']:
+            print('Configuration errors:', validation['errors'])
+            sys.exit(1)
+        print('Configuration validation passed')
+        "
+        
+    - name: Run benchmarks
+      run: |
+        cd /Users/carlgaul/Desktop/AIProjects/LegalAI
+        python src/benchmarking.py
+        
+    - name: Upload benchmark results
+      uses: actions/upload-artifact@v3
+      with:
+        name: benchmark-results
+        path: |
+          outputs/*.json
+          outputs/*.csv
+          outputs/*.md
+          
+    - name: Commit results
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add outputs/
+        git commit -m "Update benchmark results [skip ci]" || echo "No changes to commit"
+        git push
